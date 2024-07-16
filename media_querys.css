@@ -1,0 +1,49 @@
+.mydiv{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-radius: 10px;
+}
+@media screen and (max-width:800px){
+    .mydiv{
+        background-color: darkcyan;
+    }
+}
+
+.div2{
+    height: 100px;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+select{
+    display: none;
+}
+@media screen and (max-width:800px) {
+    .nav{
+        display:none;
+    }
+    select{
+        display: block;
+    }
+}
+/* TO APPLY TEH MEDIA QUERYS IN TERMS OF RANGE */
+/* @media screen and ((min-width:200px) and (max-width:800px)) {
+    .nav{
+        display:none;
+    }
+    select{
+        display: block;
+    }
+} */

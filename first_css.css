@@ -1,0 +1,12 @@
+/* for the every tag which posses the class name as yash2 will obtain the properties like this */
+.yash2{
+    color: blue;
+}
+.first p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.second p{
+    color: blueviolet;
+    font-size: 100px;
+}

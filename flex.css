@@ -1,0 +1,27 @@
+.parent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: aquamarine;
+    /* justify-content: space-around; */
+    align-items: end;    
+    justify-content: flex-end; 
+    flex-wrap: wrap;
+}
+/* to attain all the divisions in :horizontal way in a parent we use flex concept
+using justify content we can allin the spaces between the chilid divisions like evenly ,around, spacebetween and gap(like row-gap,coloum-gap)
+if we try to contrast the webpage the size of the clid divisions decreases inorder to fit the .child  to avoid 
+that situation we flex-warp = wrap it will be no wrap as a default
+                    GRID
+It conisers the whole division as a 3/3 matrix and it considers the rows as align items and the colums as justify 
+content the rows and coloums are start center and end as per our purpose we need to arrange them
+***justify content means coloums
+**aligin items --> cloloums
+*/
+
+.child{
+    width: 150px;
+    height: 150px;
+    border: 2px solid salmon;
+    background-color: azure;
+}

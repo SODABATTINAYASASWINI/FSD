@@ -1,0 +1,39 @@
+.a{
+    height: 250px;
+    width: 400px;
+    position: relative;
+}
+.b{
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid #000000;
+}
+/* .a .c p:hover{
+    border: 2px solid black;
+    background-color: aqua;
+    top: 30px;
+} */
+.c{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    border: 2px solid black;
+    display: none;
+    top: 30px;
+ }
+.a:hover .c {
+    display: block;
+}
+.d{
+    position: absolute;
+    background-color: aqua;
+    height: 40%;
+    width: 20%;
+    top: 300px;
+    z-index: -1;
+}
+.b{
+    height: 20px;
+    width: 60px;
+    color: blueviolet;
+}

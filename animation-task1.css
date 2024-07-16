@@ -1,0 +1,23 @@
+.parent{
+	height: 100%;
+	width: 100%;
+	background-color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.parent1{
+	height: 80%;
+	width: 80%;
+	background-color: blueviolet;
+}
+.p1{
+	height: 50%;
+	width: 100%;
+	background-color: antiquewhite;
+}
+.p2{
+	height: 50%;
+	width: 100%;
+	background-color: burlywood;
+}

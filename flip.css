@@ -1,0 +1,26 @@
+.parent{
+    height: 250px;
+    width: 200px;
+    background-color: blueviolet;
+    position: relative;
+    backface-visibility: hidden;
+    perspective: 3d;
+}
+.first{
+    height: 250px;
+    width: 200px;
+    background-color: brown;
+}
+.second{
+    height: 250px;
+    width: 200px;
+    background-color: azure;
+    font-size: 30px;
+    transform: rotateY(-180deg);
+    position: absolute;
+    top: 0px;
+    z-index: -99;
+}
+.first:hover{
+    transform: rotateY(180deg);
+}

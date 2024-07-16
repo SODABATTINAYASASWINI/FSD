@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+}
+.parent{
+    height: 600px;
+    width: 600px;
+     border: 2px solid white; 
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    position: relative;
+}
+.sun{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background: linear-gradient(orange,red);
+}
+.earth{
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(blue,green);
+    border-radius: 100%;
+    position: absolute;
+    top: 400px;
+    right: 0px;
+    animation-name: anime;
+    animation-duration: 5s;
+}
+@keyframes anime {
+    /* 0%{
+        top: 0%;
+        left: 0%;
+    }
+    12%{
+        top: -10%;
+        left: 50%;
+    }
+    24%{
+        top: 20%;
+        left: 80%;
+    }
+    36%{
+        left: 100%;
+        top: 50%;
+        
+    }
+    48%{
+        left: 80%;
+        top:100%;
+        
+    }
+    60%{
+       
+        top: 110%;
+        right: 50%;
+    }
+    72%{
+        top: 100%;
+        left: 0%;
+    }
+    84%{
+        left: -10%;
+        bottom: 50%;
+    }
+    100%{
+        left: 0%;
+        top: 0%;
+    }  */
+    0%{
+        transform: rotateX(0deg) translate(300px);
+    }
+    100%{
+        transform: rotate(360deg) translate(300px);
+    }
+}

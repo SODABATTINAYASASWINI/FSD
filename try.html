@@ -1,0 +1,33 @@
+<html>
+    <head></head>
+    <script>
+
+        // try{ 
+        //     {
+        //         let x = 10;
+        //     }
+        //     console.log(x);
+        // }
+        try{
+           var password = window.prompt("Enter your password")
+            if(password === "1234"){
+                console.log("The password is correct")
+            }
+            else{
+                // throw new Error("The password is not correct")
+                throw {name: "Password Error" , message: "The Password is 1234"};
+            }
+        }
+        catch(excep){
+            console.log(excep)
+            console.log(excep.name)
+            console.log(excep.message)
+        }
+        finally{
+            console.log("I will excecute no matter what")
+        }
+    </script>
+    <body>
+        
+    </body>
+</html>

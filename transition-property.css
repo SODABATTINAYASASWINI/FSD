@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    /* background: linear-gradient(blue,green); */
+    background-color: rgb(96, 136, 58);
+    /* transition: all 5s ease-out; */
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-property: 500px 500px 5s ease 10px; */
+}
+.parent:hover{
+    height: 500px;
+    width: 500px;
+    /* background: linear-gradient(pink,rgb(134, 134, 235)); */
+    background-color: rgb(240, 127, 200);
+}

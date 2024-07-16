@@ -1,0 +1,30 @@
+table,
+td,
+tr,
+th {
+  text-align: center;
+  border-radius: 10px;
+  border-color: chocolate;
+}
+table {
+  overflow: hidden;
+}
+td {
+  padding: 5px 10px;
+}
+tr:nth-child(even) {
+  background-color: aqua;
+}
+
+tr:first-child {
+  font-weight: 600;
+}
+tr:nth-child(odd) {
+  background-color: chartreuse;
+}
+th {
+  background-color: pink;
+}
+tr:hover {
+  background-color: cornflowerblue;
+}
